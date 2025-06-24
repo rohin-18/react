@@ -12,7 +12,7 @@ function ListUser() {
             .catch(err => {
                 console.error(err);
             });
-    }, []);
+    }, []);6 
 
     return (
         userList.length === 0 ? (
